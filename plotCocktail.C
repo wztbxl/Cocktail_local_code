@@ -35,7 +35,7 @@ void plotCocktail(TString cenName = "080", Bool_t withRho = kFALSE){
 
 	gStyle->SetOptFit(1111);
 
-	const Double_t dY = 2;  // input parent particle rapidity range [-1.2, 1.2]
+	const Double_t dY = 2.4;  // input parent particle rapidity range [-1.2, 1.2]
 	const Double_t dM = 0.002;// dM, dpT = 0.01
 
 	/*
